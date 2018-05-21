@@ -23,3 +23,5 @@ nnoremap <Leader>l :ls<CR>:b<Space>
 " spell check enable for markdown and asciidoc
 autocmd FileType markdown setlocal spell
 autocmd FileType asciidoc setlocal spell
+
+cabbr <expr> %% expand('%:p:h')
